@@ -1,2 +1,8 @@
-# qhack2022
-Repository for the QHack 2022 Open Hackathon project
+# Qamuy excited state calculation benchmark
+Variational quantum algorithms have enabled the use of quantum devices in the noisy intermediate-scale quantum (NISQ) era for a wide variety of use cases, showing great flexibility in the types of problems that can be solved. From finance to chemistry and machine learning, variational quantum algorithms make it possible to overcome the noise present in quantum computers to obtain useful results. In general, problems that can be formulated as a quadratic unconstrained binary optimization (QUBO) problem benefit from these algorithms.
+
+The main goal of this project is to explore the problem of finding the excited state energy of the H2 molecule using Qamuy, a quantum chemistry software that provides solutions for chemistry problems, and to apply a benchmark to find the best combination of ansatzes and optimizers for the fastest solution. For this, we use the variational quantum deflation (VQD) solver as the solver which enables finding both the ground state and the excited state energy of a Hamiltonian, contrary to the variational quantum eigensolver that can only find the ground state energy.
+
+# References
+- Calculating transition amplitudes by variational quantum deflation (Yohei Ibe, Yuya O. Nakagawa, Nathan Earnest, Takahiro Yamamoto, Kosuke Mitarai, Qi Gao, and Takao Kobayashi)
+- Variational Quantum Computation of Excited States (Oscar Higgott, Daochen Wang, and Stephen Brierley)
